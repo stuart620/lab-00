@@ -47,7 +47,7 @@ p1
 ```
 
 
-*Remove this text (including the stars), and add your answer for Exercise 18 here.*
+This plot shows each team member on the x-axis (GitHub username), their favourite number on the y-axis and their favourite colour is used to fill the bar.
 
 ### Exercises 19
 
@@ -69,4 +69,5 @@ p2 <- ggplot(team_data, aes(x = hobby)) +
 p2
 ```
 
-*Remove this text (including the stars) and add your answer for Exercise 20 here.*
+This plot is not very informative if each person has a unique hobby,
+because every bar will only have a height of 1.A better way to display these data would be to group hobbies into broader categories 
