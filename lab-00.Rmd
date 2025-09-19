@@ -17,9 +17,9 @@ We set up the data frame. Edit the data below to include information about your 
 
 ```{r setup-tibble}
 team_data <- tibble(
-  name = c("magnus", "stuart", "ben", 
-           "sophie", "tobby"),
-  github_username = c("mcgregors-garden", "stuart620", "sophie333", 
+  name = c("tobby", "stuart", "sophie", 
+           "ben", "magnus"),
+  github_username = c("tobby345", "stuart620", "sophie333", 
                       "ben234", "maginus255"), 
   colour = c("powderblue", "black", "purple", 
              "brown", "red"),
